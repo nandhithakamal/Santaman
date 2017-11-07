@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Santaman</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyAE74Rp6MML0ADWtBpK0WwkYnvMDzPoprA",
+                authDomain: "santama-cc290.firebaseapp.com",
+                databaseURL: "https://santama-cc290.firebaseio.com",
+                projectId: "santama-cc290",
+                storageBucket: "",
+                messagingSenderId: "219193225099"
+            };
+            firebase.initializeApp(config);
+        </script>
+    </head>
+    <body>
+        <div id="sign-in-status"></div>
+        <div id="sign-in"></div>
+        <div id="account-details"></div>
+        <div id = "groceryList">
+            <ol>To buy
+                <div id = "listItems">
+                </div>
+            </ol>
+        </div>
+        <div id = "newItem" class = "well">
+            <label>Item</label>
+            <input type = "text" id = "itemName"/>
+            <label>Quantity</label>
+            <input type = "text" id = "quantity"/>
+            <br>
+            <button id = "addButton">Add Item</button>
+        </div>
+        <script type="text/javascript">
+      initApp = function() {
+        firebase.auth().onAuthStateChanged(function(user) {
+          if (user) {
+            // User is signed in.
+            var displayName = user.displayName;
+            var email = user.email;
+            var emailVerified = user.emailVerified;
+            var photoURL = user.photoURL;
+            var uid = user.uid;
+            var phoneNumber = user.phoneNumber;
+            var providerData = user.providerData;
+            user.getIdToken().then(function(accessToken) {
+              document.getElementById('sign-in-status').textContent = 'Signed in';
+              document.getElementById('sign-in').textContent = 'Sign out';
+              document.getElementById('account-details').textContent = JSON.stringify({
+                displayName: displayName,
+                email: email,
+                emailVerified: emailVerified,
+                phoneNumber: phoneNumber,
+                photoURL: photoURL,
+                uid: uid,
+                accessToken: accessToken,
+                providerData: providerData
+              }, null, '  ');
+            });
+          } else {
+            // User is signed out.
+            document.getElementById('sign-in-status').textContent = 'Signed out';
+            document.getElementById('sign-in').textContent = 'Sign in';
+            document.getElementById('account-details').textContent = 'null';
+          }
+        }, function(error) {
+          console.log(error);
+        });
+      };
+
+      window.addEventListener('load', function() {
+        initApp()
+      });
+    </script>
+        <script>
+            var dbRef = firebase.database().ref().child('items');
+            dbRef.on('value', function(snap){
+                snap.forEach(function(child){
+                    $("#listItems").append("<li>" + child.val().item + " - " + child.val().quantity);
+                });
+            });
+
+            $("#addButton").on('click', function(){
+                var item = $("#itemName").val();
+                var quantity = $("#quantity").val();
+                if(item == "" || quantity == "")
+                    alert("I can't buy nothing!");
+                else{
+                    alert("You want " + item + " " + quantity);
+                    var itemsRef = firebase.database().ref("items/");
+                    itemsRef.push({
+
+                            "item": item,
+                            "quantity": quantity
+
+                    });
+                }
+            });
+
+
+
+        </script>
+    </body>
+</html>
+<!---->

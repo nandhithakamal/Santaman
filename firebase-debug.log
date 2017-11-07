@@ -1,0 +1,268 @@
+[debug] [2017-10-22T08:27:04.490Z] ----------------------------------------------------------------------
+[debug] [2017-10-22T08:27:04.492Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nandhu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-22T08:27:04.492Z] CLI Version:   3.13.1
+[debug] [2017-10-22T08:27:04.492Z] Platform:      win32
+[debug] [2017-10-22T08:27:04.492Z] Node Version:  v8.1.2
+[debug] [2017-10-22T08:27:04.493Z] Time:          Sun Oct 22 2017 13:57:04 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T08:27:04.493Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-22T08:27:04.507Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-22T08:27:04.508Z] > authorizing via signed-in user
+[debug] [2017-10-22T08:27:04.510Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 13:57:04 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T08:27:05.787Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T08:27:05.790Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/santama-cc290/tokens  
+ Sun Oct 22 2017 13:57:05 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T08:27:06.797Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Santaman'...
+[info] 
+[debug] [2017-10-22T08:27:06.804Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 13:57:06 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T08:27:08.228Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T08:27:08.229Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/219193225099/clients/_:getWebAppConfig  
+ Sun Oct 22 2017 13:57:08 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T08:27:08.944Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-10-22T08:29:11.299Z] ----------------------------------------------------------------------
+[debug] [2017-10-22T08:29:11.301Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nandhu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-22T08:29:11.302Z] CLI Version:   3.13.1
+[debug] [2017-10-22T08:29:11.302Z] Platform:      win32
+[debug] [2017-10-22T08:29:11.302Z] Node Version:  v8.1.2
+[debug] [2017-10-22T08:29:11.302Z] Time:          Sun Oct 22 2017 13:59:11 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T08:29:11.302Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-22T08:29:11.317Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-22T08:29:11.317Z] > authorizing via signed-in user
+[debug] [2017-10-22T08:29:11.320Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 13:59:11 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T08:29:12.487Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T08:29:12.490Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/santama-cc290/tokens  
+ Sun Oct 22 2017 13:59:12 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T08:29:13.403Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Santaman'...
+[info] 
+[debug] [2017-10-22T08:29:13.411Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 13:59:13 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T08:29:14.867Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T08:29:14.868Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/219193225099/clients/_:getWebAppConfig  
+ Sun Oct 22 2017 13:59:14 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T08:29:15.607Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-10-22T10:16:55.230Z] ----------------------------------------------------------------------
+[debug] [2017-10-22T10:16:55.235Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nandhu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-22T10:16:55.235Z] CLI Version:   3.13.1
+[debug] [2017-10-22T10:16:55.236Z] Platform:      win32
+[debug] [2017-10-22T10:16:55.236Z] Node Version:  v8.1.2
+[debug] [2017-10-22T10:16:55.237Z] Time:          Sun Oct 22 2017 15:46:55 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:16:55.237Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-22T10:16:55.255Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-22T10:16:55.255Z] > authorizing via signed-in user
+[debug] [2017-10-22T10:16:55.258Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-10-22T10:16:55.258Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/GP4IzZt5-oD5gTd8savgH-DuLTh0T1wlX1SoMsggG--XmyUX_-zagv8yocI542n1',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Oct 22 2017 15:46:55 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:16:55.525Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T10:16:55.593Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 15:46:55 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:16:56.771Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T10:16:56.773Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/santama-cc290/tokens  
+ Sun Oct 22 2017 15:46:56 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:16:57.713Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Santaman'...
+[info] 
+[debug] [2017-10-22T10:16:57.720Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 15:46:57 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:16:59.225Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T10:16:59.226Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/219193225099/clients/_:getWebAppConfig  
+ Sun Oct 22 2017 15:46:59 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:17:00.007Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-10-22T10:22:32.029Z] ----------------------------------------------------------------------
+[debug] [2017-10-22T10:22:32.032Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nandhu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-22T10:22:32.033Z] CLI Version:   3.13.1
+[debug] [2017-10-22T10:22:32.033Z] Platform:      win32
+[debug] [2017-10-22T10:22:32.033Z] Node Version:  v8.1.2
+[debug] [2017-10-22T10:22:32.033Z] Time:          Sun Oct 22 2017 15:52:32 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:22:32.033Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-22T10:22:32.051Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-22T10:22:32.051Z] > authorizing via signed-in user
+[debug] [2017-10-22T10:22:32.054Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 15:52:32 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:22:33.277Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T10:22:33.281Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/santama-cc290/tokens  
+ Sun Oct 22 2017 15:52:33 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:22:34.226Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Santaman'...
+[info] 
+[debug] [2017-10-22T10:22:34.233Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 15:52:34 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:22:35.766Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T10:22:35.767Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/219193225099/clients/_:getWebAppConfig  
+ Sun Oct 22 2017 15:52:35 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:22:36.548Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-10-22T10:43:17.132Z] ----------------------------------------------------------------------
+[debug] [2017-10-22T10:43:17.134Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nandhu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-22T10:43:17.134Z] CLI Version:   3.13.1
+[debug] [2017-10-22T10:43:17.135Z] Platform:      win32
+[debug] [2017-10-22T10:43:17.135Z] Node Version:  v8.1.2
+[debug] [2017-10-22T10:43:17.135Z] Time:          Sun Oct 22 2017 16:13:17 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:43:17.135Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-22T10:43:17.151Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-22T10:43:17.152Z] > authorizing via signed-in user
+[debug] [2017-10-22T10:43:17.154Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 16:13:17 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:43:18.371Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T10:43:18.374Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/santama-cc290/tokens  
+ Sun Oct 22 2017 16:13:18 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:43:19.302Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Santaman'...
+[info] 
+[debug] [2017-10-22T10:43:19.306Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 16:13:19 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:43:20.816Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T10:43:20.817Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/219193225099/clients/_:getWebAppConfig  
+ Sun Oct 22 2017 16:13:20 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T10:43:21.503Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-10-22T11:06:04.212Z] ----------------------------------------------------------------------
+[debug] [2017-10-22T11:06:04.215Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nandhu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-22T11:06:04.216Z] CLI Version:   3.13.1
+[debug] [2017-10-22T11:06:04.216Z] Platform:      win32
+[debug] [2017-10-22T11:06:04.216Z] Node Version:  v8.1.2
+[debug] [2017-10-22T11:06:04.217Z] Time:          Sun Oct 22 2017 16:36:04 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:06:04.217Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-22T11:06:04.241Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-22T11:06:04.242Z] > authorizing via signed-in user
+[debug] [2017-10-22T11:06:04.246Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-10-22T11:06:04.246Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/GP4IzZt5-oD5gTd8savgH-DuLTh0T1wlX1SoMsggG--XmyUX_-zagv8yocI542n1',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Oct 22 2017 16:36:04 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:06:04.508Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T11:06:04.554Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 16:36:04 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:06:05.818Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T11:06:05.820Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/santama-cc290/tokens  
+ Sun Oct 22 2017 16:36:05 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:06:06.754Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Santaman'...
+[info] 
+[debug] [2017-10-22T11:06:06.762Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 16:36:06 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:06:08.210Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T11:06:08.211Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/219193225099/clients/_:getWebAppConfig  
+ Sun Oct 22 2017 16:36:08 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:06:08.944Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-10-22T11:09:30.446Z] ----------------------------------------------------------------------
+[debug] [2017-10-22T11:09:30.449Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nandhu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-22T11:09:30.449Z] CLI Version:   3.13.1
+[debug] [2017-10-22T11:09:30.449Z] Platform:      win32
+[debug] [2017-10-22T11:09:30.449Z] Node Version:  v8.1.2
+[debug] [2017-10-22T11:09:30.450Z] Time:          Sun Oct 22 2017 16:39:30 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:09:30.450Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-22T11:09:30.468Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-22T11:09:30.469Z] > authorizing via signed-in user
+[debug] [2017-10-22T11:09:30.473Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 16:39:30 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:09:31.657Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T11:09:31.661Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/santama-cc290/tokens  
+ Sun Oct 22 2017 16:39:31 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:09:32.626Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Santaman'...
+[info] 
+[debug] [2017-10-22T11:09:32.633Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 16:39:32 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:09:34.131Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T11:09:34.132Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/219193225099/clients/_:getWebAppConfig  
+ Sun Oct 22 2017 16:39:34 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:09:34.828Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-10-22T11:12:36.341Z] ----------------------------------------------------------------------
+[debug] [2017-10-22T11:12:36.343Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nandhu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-22T11:12:36.344Z] CLI Version:   3.13.1
+[debug] [2017-10-22T11:12:36.344Z] Platform:      win32
+[debug] [2017-10-22T11:12:36.344Z] Node Version:  v8.1.2
+[debug] [2017-10-22T11:12:36.345Z] Time:          Sun Oct 22 2017 16:42:36 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:12:36.345Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-22T11:12:36.359Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-22T11:12:36.360Z] > authorizing via signed-in user
+[debug] [2017-10-22T11:12:36.362Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 16:42:36 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:12:37.587Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T11:12:37.590Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/santama-cc290/tokens  
+ Sun Oct 22 2017 16:42:37 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:12:38.679Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Santaman'...
+[info] 
+[debug] [2017-10-22T11:12:38.686Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 16:42:38 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:12:40.099Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T11:12:40.100Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/219193225099/clients/_:getWebAppConfig  
+ Sun Oct 22 2017 16:42:40 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:12:41.301Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-10-22T11:13:42.639Z] ----------------------------------------------------------------------
+[debug] [2017-10-22T11:13:42.641Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nandhu\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-10-22T11:13:42.642Z] CLI Version:   3.13.1
+[debug] [2017-10-22T11:13:42.642Z] Platform:      win32
+[debug] [2017-10-22T11:13:42.642Z] Node Version:  v8.1.2
+[debug] [2017-10-22T11:13:42.642Z] Time:          Sun Oct 22 2017 16:43:42 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:13:42.643Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-22T11:13:42.658Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-22T11:13:42.658Z] > authorizing via signed-in user
+[debug] [2017-10-22T11:13:42.661Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 16:43:42 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:13:43.866Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T11:13:43.868Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/santama-cc290/tokens  
+ Sun Oct 22 2017 16:43:43 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:13:44.884Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Santaman'...
+[info] 
+[debug] [2017-10-22T11:13:44.891Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/santama-cc290  
+ Sun Oct 22 2017 16:43:44 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:13:46.352Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-22T11:13:46.353Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/219193225099/clients/_:getWebAppConfig  
+ Sun Oct 22 2017 16:43:46 GMT+0530 (India Standard Time)
+[debug] [2017-10-22T11:13:47.061Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

@@ -1,0 +1,18 @@
+{
+  "name": "santaman",
+  "version": "1.0.0",
+  "description": "Grocery list making app",
+  "main": "server.js",
+  "dependencies": {
+    "firebase": "^4.5.1",
+    "hapi": "^16.6.2",
+    "inert": "^4.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nandhitha Kamal",
+  "license": "ISC"
+}
